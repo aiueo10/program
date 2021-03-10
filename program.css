@@ -1,0 +1,126 @@
+@charset "UTF-8";
+html {
+  height: 10000%;
+}
+
+body {
+  height: 10000%;
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: white;
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  background: black;
+  text-align: center;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+h1 {
+  border-bottom: 3px solid white;
+  display: inline-block;
+  padding-bottom: 15px;
+  font-size: 22px;
+  margin-top: 60px;
+  margin-bottom: 55px;
+}
+
+header {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+}
+
+.inner {
+  margin-left: 20%;
+}
+
+.logo {
+  width: 87px;
+  height: 22px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+nav {
+  line-height: 3.5;
+}
+
+/* line-heightの大きさが合わない */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-icons {
+  margin-top: 52px;
+}
+
+.fab {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+main {
+  width: 80%;
+  height: 1000000px;
+}
+
+main img {
+  width: 100%;
+}
+
+/* imgに直接指定?*/
+.message-wrapper {
+  text-align: center;
+  /* 幅しないと */
+}
+
+.message-wrapper p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.photo-wrapper {
+  margin-top: 85px;
+}
+
+.photo-wrapper img {
+  width: 33.3333333333%;
+}
+
+span .photo-big {
+  width: 100%;
+}
+
+.brand-wrapper {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid white;
+  padding-bottom: 50px;
+}
+
+.brand-wrapper div {
+  width: 25%;
+  margin: 0px 25px;
+}
+
+.brand-wrapper img {
+  width: 100%;
+}
+
+.box {
+  height: 100000px;
+}
+/*# sourceMappingURL=program.css.map */
